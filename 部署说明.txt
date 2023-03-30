@@ -6,3 +6,6 @@
 worker部署完成
 
 Custom Domains 不能有子目录
+
+server/server.config.js
+const BAREURL = 'https://yourdomain'
