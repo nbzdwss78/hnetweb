@@ -1,0 +1,11 @@
+已经会在cloudflare上开启proxy，托管域名这些基础。
+点击左侧导航栏。workers，点击kv。创建一个namespace叫BARE。
+点击左侧workers. 创建一个worker服务。创建以后，点击新创建的服务。点击settings。点击Variables。KV Namespace Bindings中加入一个Variable name=BARE ，KV Namespace=BARE的binging。点击save。
+点击quick edit。进入编辑页面。删除左侧所有代码。把workers-bare.js中的代码复制粘贴上去。点击save and deploy
+可选操作。点击trigger。增加一个Custom Domains。
+worker部署完成
+
+Custom Domains 不能有子目录
+
+server/server.config.js
+const BAREURL = 'https://yourdomain'
