@@ -5,6 +5,8 @@
 可选操作。点击trigger。增加一个Custom Domains。
 worker部署完成
 
+workers-bare.js中的 const MIRROR_URL = 'Custom Domains';
+
 Custom Domains 不能有子目录
 
 server/server.config.js
