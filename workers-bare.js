@@ -3,7 +3,7 @@
  * BAN_REGION: The country or region you want to prohibit access to
  */
 const MIRROR_URL = 'github.com';
-const BAN_REGION = ['IN', 'KP'];
+const BAN_REGION = ['IN2', 'KP2'];
 /**
  * @param {Promise} handleRequest
  */
